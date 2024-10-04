@@ -19,7 +19,6 @@ button.addEventListener("click", handleClick);
 function handleSubmit(event) {
   event.preventDefault();
   clearImages();
-  
   loader.classList.remove("hiden");
   message.classList.remove("show-text");
   
@@ -81,5 +80,6 @@ function fetchImages(query, page) {
     loader.classList.add("hiden");
   });
 }
+
 
 
